@@ -1,16 +1,34 @@
 @font-face {
-    font-family: Poppins;
-    src: url(./assets/fonts/Poppins-Medium.ttf);
-    font-weight: 500;
+    font-family: IBM Plex Sans;
+    src: url(./assets/fonts/IBMPlexSans-Bold.ttf);
+    font-weight: 700;
 }
 
 @font-face {
-    font-family: Poppins;
-    src: url(./assets/fonts/Poppins-Thin.ttf);
-    font-weight: 100;
+    font-family: IBM Plex Sans;
+    src: url(./assets/fonts/IBMPlexSans-Regular.ttf);
+    font-weight: 400;
 }
 
 @font-face {
-    font-family: Prata;
-    src: url(./assets/fonts/Prata-Regular.ttf);
+    font-family: IBM Plex Sans;
+    src: url(./assets/fonts/IBMPlexSans-Light.ttf);
+    font-weight: 300;
+}
+
+.body {
+    margin: 0
+}
+.header-background {
+    padding: 60px;
+    margin-bottom: 30px;
+    background: #FFCDB2;
+}
+
+.avatar {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 60px;
+    top: 90px;
 }
