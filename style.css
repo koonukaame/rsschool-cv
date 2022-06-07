@@ -4,7 +4,26 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     background-color: #E5E5E5;
 
+}
+
+.header-nav {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #3F0FFF;
+}
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: #851BD9;
 }
