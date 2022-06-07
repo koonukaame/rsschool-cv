@@ -9,16 +9,17 @@ html {
 }
 
 .body {
-    background-color: #E5E5E5;
+    background-color: #1c0f23;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     margin: 0;
+    color: #F3C5E4;
 }
 
 .header-nav {
     font-family: 'Press Start 2P', cursive;
     font-size: 15px;
-    color: #3F0FFF;
+    color: #F3C5E4;
 }
 
 .header-nav-ul {
@@ -33,7 +34,7 @@ html {
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+    background: linear-gradient(135deg, #FCBBA8 7.81%, #E17973 48.44%, #E44348 84.9%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -41,7 +42,7 @@ h1 {
 
 h2 {
     font-family: 'Press Start 2P', cursive;
-    color: #FF26B2;
+    color: #FCBBA8;
     font-size: 20px;
 }
 
@@ -104,4 +105,10 @@ h2 {
 .data {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 700;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
