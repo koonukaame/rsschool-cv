@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 
-html {
+.html {
     scroll-behavior: smooth;
 }
 
 .body {
     background-color: #1c0f23;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
     margin: 0;
     color: #F3C5E4;
 }
@@ -27,8 +27,9 @@ html {
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -38,6 +39,7 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-size: 35px;
 }
 
 h2 {
@@ -51,19 +53,35 @@ h2 {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
+    padding: 10px;
+    margin-bottom: 20px;
     width: 100%;
     max-width: 1440px;
-    margin: 0px 15px;
 }
 
 .main {
     width: 60%;
-    row-gap: 40px;
 }
 
 .main p {
+    margin: 10px;
+}
+
+.main article {
+    margin: 20px;
+    padding: 10px;
+}
+
+.aside {
+    width: 30%;
+}
+
+.aside article {
+    margin: 20px;
+    padding: 10px;
+}
+
+.aside ul {
     margin: 10px;
 }
 
@@ -96,6 +114,8 @@ h2 {
 
 .rss-logo {
     width: 60px;
+    opacity: 80%;
+    background-color: #FCBBA8;
 }
 
 .github-logo {
@@ -103,12 +123,38 @@ h2 {
 }
 
 .data {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    color: #FCBBA8;
 }
 
 .avatar {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.education {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#faculty {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 300;
+}
+
+a:visited {
+    color: #FCBBA8;
 }
