@@ -1,16 +1,10 @@
-.body {
-    margin: 0
-}
-.header-background {
-    padding: 60px;
-    margin-bottom: 30px;
-    background: #FFCDB2;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.avatar {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    right: 60px;
-    top: 90px;
+body {
+    background-color: #E5E5E5;
+
 }
