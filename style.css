@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     background-color: #E5E5E5;
-
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 .header-nav {
@@ -14,6 +20,7 @@
     font-size: 15px;
     color: #3F0FFF;
 }
+
 .header-nav-ul {
     display: flex;
     align-items: center;
@@ -21,9 +28,80 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    color: #851BD9;
+    background: linear-gradient(135deg, #FF26B2 0%, #851BD9 64.06%, #3F0FFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #FF26B2;
+    font-size: 20px;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px 15px;
+}
+
+.main {
+    width: 60%;
+    row-gap: 40px;
+}
+
+.main p {
+    margin: 10px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    column-gap: 13%;
+    margin: 10px
+}
+
+.header-flex-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-flex {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    gap: 30%;
+}
+
+.rss-logo {
+    width: 60px;
+}
+
+.github-logo {
+    width: 60px;
+}
+
+.data {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
 }
