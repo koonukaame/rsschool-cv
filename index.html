@@ -13,6 +13,7 @@
 </head>
 <body class="body">
     <header>
+        <div class="container">
                 <nav class="header-nav">
             <ul class="header-nav-ul">
                 <li>
@@ -22,7 +23,7 @@
                     <a href="#codeexample">Code</a>
                 </li>
                 <li>
-                    <a href="#workexperience"> Experience</a>
+                    <a href="#experience"> Experience</a>
                 </li>
                 <li>
                     <a href="#education">Education</a>
@@ -49,9 +50,12 @@
         <h2>(Future) Front End Developer</h2>
         </div>
     </div>
+    </div>
 </header>
-<main class="main-flex">
-    <section class="main">
+<main>
+    <div class="container">
+        <div class="main-flex">
+    <div class="main">
         <article>
         <h2 id="aboutme">
             &lt;about&gt;
@@ -81,7 +85,7 @@
         </h2>
         </article>
         <article>
-            <h2>
+            <h2 id="experience">
                 &lt;experience&gt;
             </h2>
                 <p class="experience">
@@ -98,8 +102,7 @@
                 <ul class="education">
                     <li>VSU
                         <ul class="education">
-                            <li>faculty of Romance and Germanic Philology (2018-2022)
-                            </li>
+                            <li>faculty of Romance and Germanic Philology (2018-2022)</li>
                         </ul>
                     </li>
                 </ul>
@@ -107,18 +110,10 @@
                 &lt;/education&gt;
             </h2>
         </article>
-        <article>
-            <h2 class="projects">
-                &lt;projects&gt;
-            </h2>
-            <a href="https://koonukaame.github.io/rsschool-cv/cv">Markdown CV</a>
-            <h2>
-                &lt;/projects&gt;
-            </h2>
-        </article>
-    </section>
+        
+    </div>
 <aside class="aside">
-    <section>
+    <div>
         <article>
             <h2 id="contacts">
                 &lt;contacts&gt;
@@ -127,7 +122,7 @@
                 <li>Location: Moscow, Russia</li>
                 <li>Email: marialezhebokova@yandex.ru</li>
                 <li>Telegram: @koonukaame</li>
-                <li>GitHub: koonukaame</li>
+                <li>Github: koonukaame</li>
                 <li>Discord: ihavenomouthbutimustscream#3078</li>
             </ul>
             <h2>
@@ -138,7 +133,7 @@
             <h2 id="skills">
                 &lt;skills&gt;
             </h2>
-            <ul>
+            <ul class="skills">
                 <li>Git and GitHub</li>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -151,7 +146,7 @@
             <h2 id="languages">
                 &lt;languages&gt;
             </h2>
-            <ul>
+            <ul class="languages">
                 <li>Russian (native)</li>
                 <li>English (B2+)</li>
                 <li>German (C1)</li>
@@ -160,20 +155,38 @@
                 &lt;/languages&gt;
             </h2>
         </article>
-    </section>
+        <article>
+            <h2 id="projects">
+                &lt;projects&gt;
+            </h2>
+            <div class="project">
+            <a href="https://koonukaame.github.io/rsschool-cv/cv" target="_blank">
+            <img src="/assets/img/project-picture.png" alt="Markdown project" class="project-picture">
+            </a>
+            </div>
+            <h2>
+                &lt;/projects&gt;
+            </h2>
+        </article>
+    </div>
 </aside>
+    </div>
+    </div>
 </main>
-<footer class="footer-flex">
+<footer>
+    <div class="container">
+    <div class="footer-flex">
 <a href="https://github.com/koonukaame">
     <img src="/assets/img/Github.png" alt="Github" class="github-logo">
 </a>
-<time class="data">
+<p class="data">
     June 2022
-</time>
-<href href="https://rs.school/js/">
+</p>
+<a href="https://rs.school/js/">
     <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool logo" class="rss-logo">
     </a>
-</a>
+    </div>
+    </div>
 </footer>
 </body>
 </html>
