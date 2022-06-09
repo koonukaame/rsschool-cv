@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #1c0f23;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    margin: auto;
+    color: #F3C5E4;
+    font-size: 16;
+}
+
+a:link {
+    color:#FCBBA8;
+}
+
+a:visited {
+    color:#E44348;
+}
+
+.header-nav {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #F3C5E4;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    background: linear-gradient(135deg, #FCBBA8 7.81%, #E17973 48.44%, #E44348 84.9%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 35px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    color: #FCBBA8;
+    font-size: 20px;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main {
+    width: 60%;
+}
+
+.main p {
+    margin: 10px;
+}
+
+.main article {
+    margin: 20px;
+    padding: 10px;
+}
+
+.aside {
+    width: 35%;
+}
+
+.aside article {
+    margin: 20px;
+    padding: 10px;
+}
+
+.aside ul {
+    margin: 10px;
+}
+
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    column-gap: 13%;
+    margin: 0px
+}
+
+.header-flex-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-flex {
+    display: flex;
+	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    gap: 30%;
+    width: 100%
+}
+
+.rss-logo {
+    width: 100px;
+    background-color: #FCBBA8;
+}
+
+.github-logo {
+    width: 80px;
+}
+
+.data {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: #FCBBA8;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.education {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.experience {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:visited {
+    color: #FCBBA8;
+}
+
+.languages {
+    list-style-type: none;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.contacts {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.project {
+    max-width: 300px;
+    color: #1c0f23;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project-picture {
+    max-width: 300px;
+    transition: 0.5s;
+}
+
+.project-picture:hover {
+    transform: scale(1.1)
+}
