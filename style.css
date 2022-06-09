@@ -15,7 +15,7 @@
     margin: auto;
     color: #F3C5E4;
     font-size: 16;
-}add
+}
 
 a:link {
     color:#FCBBA8;
@@ -123,17 +123,17 @@ h2 {
 }
 
 .rss-logo {
-    width: 60px;
+    width: 100px;
     background-color: #FCBBA8;
 }
 
 .github-logo {
-    width: 60px;
+    width: 80px;
 }
 
 .data {
-    font-family: 'Inconsolata', monospace;
-    font-weight: 500;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
     color: #FCBBA8;
 }
 
@@ -171,6 +171,10 @@ a:visited {
     list-style-type: none;
 }
 
+.contacts {
+    list-style-type: none;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -190,5 +194,4 @@ a:visited {
 
 .project-picture:hover {
     transform: scale(1.1)
-
 }
