@@ -27,7 +27,7 @@ a:visited {
 
 .header-nav {
     font-family: 'Press Start 2P', cursive;
-    font-size: 1em;
+    font-size: 0.94em;
     color: #F3C5E4;
 }
 
@@ -36,9 +36,9 @@ a:visited {
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 0.6em;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
     width: 100%;
 }
 
@@ -48,13 +48,13 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 2em;
+    font-size: 2.19em;
 }
 
 h2, span {
     font-family: 'Press Start 2P', cursive;
     color: #FCBBA8;
-    font-size: 1.4em;
+    font-size: 1.25em;
     font-weight: bold;
 }
 
@@ -63,8 +63,8 @@ h2, span {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.6em;
+    margin-bottom: 1em;
 }
 
 .main {
@@ -72,12 +72,12 @@ h2, span {
 }
 
 .main p {
-    margin: 10px;
+    margin: 0.6em;
 }
 
 .main article {
-    margin: 20px;
-    padding: 10px;
+    margin: 1.4em;
+    padding: 0.6em;
 }
 
 .aside {
@@ -85,12 +85,12 @@ h2, span {
 }
 
 .aside article {
-    margin: 20px;
-    padding: 10px;
+    margin: 1.4em;
+    padding: 0.6em;
 }
 
 .aside ul {
-    margin: 10px;
+    margin: 0.6em;
 }
 
 .header-flex {
@@ -101,7 +101,7 @@ h2, span {
     width: 100%;
     max-width: 1440px;
     column-gap: 13%;
-    margin: 0px
+    margin: 0;
 }
 
 .header-flex-aboutme {
@@ -126,34 +126,34 @@ h2, span {
 }
 
 .github-logo {
-    width: 80px;
+    width: 5em;
 }
 
 .data {
     font-family: 'Press Start 2P', cursive;
-    font-size: 1em;
+    font-size: 1.05em;
     color: #FCBBA8;
 }
 
 .avatar {
     border-radius: 50%;
-    width: 10em;
+    width: 9.45em;
 }
 
 .education {
     list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .experience {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .projects {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 a:visited {
@@ -180,8 +180,8 @@ a:visited {
 .project {
     max-width: 300px;
     color: #1c0f23;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .project-picture {
