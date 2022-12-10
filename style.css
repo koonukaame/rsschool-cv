@@ -14,7 +14,7 @@
     font-weight: 500;
     margin: auto;
     color: #F3C5E4;
-    font-size: 16;
+    font-size: 16px;
 }
 
 a:link {
@@ -51,10 +51,11 @@ h1 {
     font-size: 35px;
 }
 
-h2 {
+h2, span {
     font-family: 'Press Start 2P', cursive;
     color: #FCBBA8;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .main-flex {
@@ -64,8 +65,6 @@ h2 {
     justify-content: space-between;
     padding: 10px;
     margin-bottom: 20px;
-    width: 100%;
-    max-width: 1440px;
 }
 
 .main {
@@ -124,7 +123,6 @@ h2 {
 
 .rss-logo {
     width: 100px;
-    background-color: #FCBBA8;
 }
 
 .github-logo {
