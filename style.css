@@ -33,7 +33,6 @@ a:visited {
 
 .header-nav-ul {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     list-style-type: none;
     padding: 0.6em;
@@ -122,7 +121,7 @@ h2, span {
 }
 
 .rss-logo {
-    width: 100px;
+    width: 5em;
 }
 
 .github-logo {
@@ -178,14 +177,14 @@ a:visited {
 }
 
 .project {
-    max-width: 300px;
+    max-width: 19em;
     color: #1c0f23;
     padding-top: 0.6em;
     padding-bottom: 0.6em;
 }
 
 .project-picture {
-    max-width: 300px;
+    max-width: 19em;
     transition: 0.5s;
 }
 
