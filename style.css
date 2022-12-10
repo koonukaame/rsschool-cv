@@ -14,7 +14,7 @@
     font-weight: 500;
     margin: auto;
     color: #F3C5E4;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 a:link {
@@ -27,7 +27,7 @@ a:visited {
 
 .header-nav {
     font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 1em;
     color: #F3C5E4;
 }
 
@@ -48,13 +48,13 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 35px;
+    font-size: 2em;
 }
 
 h2, span {
     font-family: 'Press Start 2P', cursive;
     color: #FCBBA8;
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: bold;
 }
 
@@ -131,14 +131,13 @@ h2, span {
 
 .data {
     font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 1em;
     color: #FCBBA8;
 }
 
 .avatar {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 10em;
 }
 
 .education {
