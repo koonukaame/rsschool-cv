@@ -14,7 +14,7 @@
     font-weight: 500;
     margin: auto;
     color: #F3C5E4;
-    font-size: 16;
+    font-size: 1em;
 }
 
 a:link {
@@ -27,18 +27,17 @@ a:visited {
 
 .header-nav {
     font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 0.94em;
     color: #F3C5E4;
 }
 
 .header-nav-ul {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 0.6em;
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
     width: 100%;
 }
 
@@ -48,13 +47,14 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 35px;
+    font-size: 2.19em;
 }
 
-h2 {
+h2, span {
     font-family: 'Press Start 2P', cursive;
     color: #FCBBA8;
-    font-size: 20px;
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 .main-flex {
@@ -62,10 +62,8 @@ h2 {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 100%;
-    max-width: 1440px;
+    padding: 0.6em;
+    margin-bottom: 1em;
 }
 
 .main {
@@ -73,12 +71,12 @@ h2 {
 }
 
 .main p {
-    margin: 10px;
+    margin: 0.6em;
 }
 
 .main article {
-    margin: 20px;
-    padding: 10px;
+    margin: 1.4em;
+    padding: 0.6em;
 }
 
 .aside {
@@ -86,12 +84,12 @@ h2 {
 }
 
 .aside article {
-    margin: 20px;
-    padding: 10px;
+    margin: 1.4em;
+    padding: 0.6em;
 }
 
 .aside ul {
-    margin: 10px;
+    margin: 0.6em;
 }
 
 .header-flex {
@@ -100,9 +98,8 @@ h2 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1440px;
     column-gap: 13%;
-    margin: 0px
+    margin: 0;
 }
 
 .header-flex-aboutme {
@@ -117,46 +114,43 @@ h2 {
 	flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 1440px;
     gap: 30%;
     width: 100%
 }
 
 .rss-logo {
-    width: 100px;
-    background-color: #FCBBA8;
+    width: 5em;
 }
 
 .github-logo {
-    width: 80px;
+    width: 5em;
 }
 
 .data {
     font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
+    font-size: 1.05em;
     color: #FCBBA8;
 }
 
 .avatar {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 9.45em;
 }
 
 .education {
     list-style-type: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .experience {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .projects {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 a:visited {
@@ -176,22 +170,107 @@ a:visited {
 }
 
 .container {
-    max-width: 1440px;
     margin: 0 auto;
 }
 
 .project {
-    max-width: 300px;
+    max-width: 19em;
     color: #1c0f23;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 .project-picture {
-    max-width: 300px;
+    max-width: 19em;
     transition: 0.5s;
 }
 
 .project-picture:hover {
     transform: scale(1.1)
+}
+
+/* idk test media query */
+@media(max-width: 768px) {
+    .body {
+        font-size: 0.8em;
+    }
+
+    .header-nav {
+        font-size: 0.8em;
+    }
+
+    .project-picture {
+        max-width: 15em;
+        transition: 0.5s;
+    }
+
+    .footer-flex {
+        gap: 25%;
+    }
+}
+
+@media(max-width:380px) {
+
+    .header-nav {
+        font-size: 1em;
+    }
+
+    .header-nav-ul > li {
+        padding: 0.5em;
+    }
+
+    .header-nav-ul {
+        flex-direction: column;
+        align-items: center;
+        margin: -0.1em;
+    }
+
+    .header-flex {
+        flex-direction: column;
+    }
+
+    .avatar {
+        width: 14em;
+    }
+
+    h1 {
+        font-size: 1.35em;
+    }
+
+    h2, span {
+        font-size: 1em;
+    }
+
+    .header-flex-aboutme > h2 {
+        padding: 0.1em;
+    }
+
+    .main-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .footer-flex {
+        gap: 10%;
+    }
+
+    .data {
+        font-size: 0.7em;
+    }
+
+    .rss-logo {
+        width: 4em;
+    }
+    
+    .github-logo {
+        width: 4em;
+    }
 }
