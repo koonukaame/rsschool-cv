@@ -267,7 +267,7 @@ a:link {
     }
 }
 
-@media screen and (max-device-width:600px)  {
+@media screen and (max-device-width:425px)  {
     .body {
         font-size: 1em;
     }
@@ -333,21 +333,5 @@ a:link {
     
     .github-logo {
         width: 4em;
-    }
-}
-
-@media screen and (max-device-width:690px) {
-    .header-nav {
-        font-size: 0.73em;
-    }
-
-    
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    .data {
-        font-size: 1em;
     }
 }
