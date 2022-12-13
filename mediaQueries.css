@@ -19,7 +19,7 @@
     }
 }
 
-@media screen and (max-device-width:380px) {
+@media screen and (max-device-width:424px) {
 
     .header-nav {
         font-size: 1em;
@@ -85,7 +85,7 @@
     }
 }
 
-@media screen and (max-device-width:425px)  {
+@media screen and (max-device-width: 688px) and (min-device-width:425px)  {
     .body {
         font-size: 1em;
     }
