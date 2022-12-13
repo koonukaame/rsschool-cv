@@ -1,0 +1,155 @@
+/* idk some ungly test media queries */
+
+@media screen and (max-device-width: 768px) {
+    .body {
+        font-size: 0.8em;
+    }
+
+    .header-nav {
+        font-size: 0.8em;
+    }
+
+    .project-picture {
+        max-width: 15em;
+        transition: 0.5s;
+    }
+
+    .footer-flex {
+        gap: 25%;
+    }
+}
+
+@media screen and (max-device-width:380px) {
+
+    .header-nav {
+        font-size: 1em;
+    }
+
+    .header-nav-ul > li {
+        padding: 0.5em;
+    }
+
+    .header-nav-ul {
+        flex-direction: column;
+        align-items: center;
+        margin: -0.1em;
+    }
+
+    .header-flex {
+        flex-direction: column;
+    }
+
+    .avatar {
+        width: 14em;
+    }
+
+    h1 {
+        font-size: 1.35em;
+    }
+
+    .heading-style {
+        font-size: 1em;
+    }
+
+    .header-flex-aboutme > h2 {
+        padding: 0.1em;
+    }
+
+    .main-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .footer-flex {
+        gap: 10%;
+    }
+
+    .data {
+        font-size: 0.7em;
+    }
+
+    .rss-logo {
+        width: 4em;
+    }
+    
+    .github-logo {
+        width: 4em;
+    }
+}
+
+@media screen and (max-device-width:425px)  {
+    .body {
+        font-size: 1em;
+    }
+
+    .header-nav {
+        font-size: 1.3em;
+    }
+
+    .header-nav-ul > li {
+        padding: 0.5em;
+    }
+
+    .header-nav-ul {
+        flex-direction: column;
+        align-items: center;
+        margin: -0.1em;
+    }
+
+    .header-flex {
+        flex-direction: column;
+    }
+
+    .avatar {
+        width: 17em;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .heading-style {
+        font-size: 1.1em;
+    }
+
+    .header-flex-aboutme > h2 {
+        padding: 0.1em;
+    }
+
+    .main-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .footer-flex {
+        gap: 10%;
+    }
+
+    .data {
+        font-size: 0.7em;
+    }
+
+    .rss-logo {
+        width: 4em;
+    }
+    
+    .github-logo {
+        width: 4em;
+    }
+}
