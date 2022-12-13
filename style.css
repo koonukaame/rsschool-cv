@@ -182,7 +182,7 @@ a:link {
 }
 
 /* idk test media query */
-@media(max-width: 768px) {
+@media screen and (max-device-width: 768px) {
     .body {
         font-size: 0.8em;
     }
@@ -201,7 +201,7 @@ a:link {
     }
 }
 
-@media(max-width:380px) {
+@media screen and (max-device-width:380px) {
 
     .header-nav {
         font-size: 1em;
