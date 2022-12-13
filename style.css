@@ -17,12 +17,8 @@
     font-size: 1em;
 }
 
-a:link {
-    color:#FCBBA8;
-}
-
-a:visited {
-    color:#E44348;
+.container {
+    margin: 0 auto;
 }
 
 .header-nav {
@@ -41,6 +37,36 @@ a:visited {
     width: 100%;
 }
 
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 13%;
+    margin: 0;
+}
+
+.header-flex-aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0.6em;
+    margin-bottom: 1em;
+}
+
+.main {
+    width: 60%;
+}
+
 h1 {
     font-family: 'Press Start 2P', cursive;
     background: linear-gradient(135deg, #FCBBA8 7.81%, #E17973 48.44%, #E44348 84.9%);
@@ -55,19 +81,6 @@ h2, span {
     color: #FCBBA8;
     font-size: 1.25em;
     font-weight: bold;
-}
-
-.main-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 0.6em;
-    margin-bottom: 1em;
-}
-
-.main {
-    width: 60%;
 }
 
 .main p {
@@ -90,23 +103,6 @@ h2, span {
 
 .aside ul {
     margin: 0.6em;
-}
-
-.header-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    column-gap: 13%;
-    margin: 0;
-}
-
-.header-flex-aboutme {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 .footer-flex {
@@ -153,10 +149,6 @@ h2, span {
     padding-bottom: 0.6em;
 }
 
-a:visited {
-    color: #FCBBA8;
-}
-
 .languages {
     list-style-type: none;
 }
@@ -167,10 +159,6 @@ a:visited {
 
 .contacts {
     list-style-type: none;
-}
-
-.container {
-    margin: 0 auto;
 }
 
 .project {
@@ -187,6 +175,14 @@ a:visited {
 
 .project-picture:hover {
     transform: scale(1.1)
+}
+
+a:visited {
+    color: #FCBBA8;
+}
+
+a:link {
+    color:#FCBBA8;
 }
 
 /* idk test media query */
