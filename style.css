@@ -35,3 +35,50 @@ body {
   padding: 30px 10px 30px 10px;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header__user-info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.header__pic {
+  width: 70px;
+  height: 70px;
+}
+
+.nav {
+  padding-top: 15px;
+}
+
+.nav__list {
+  visibility: hidden;
+}
+
+.nav__burger {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav__burger-item {
+  width: 30px;
+  height: 2px;
+  background-color: black;
+}
