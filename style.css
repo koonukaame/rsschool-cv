@@ -85,7 +85,7 @@ body {
 
 ._open {
   transform: translateX(0%);
-  transition: all 0.4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .nav__burger {
@@ -100,4 +100,20 @@ body {
   width: 30px;
   height: 2px;
   background-color: black;
+  transition: all .3s ease-in-out;
+}
+
+.nav__burger_open div:nth-child(2) {
+  width: 0px;
+  transition: all .3s ease-in-out;
+}
+
+.nav__burger_open div:nth-child(1) {
+  transform: translateY(10px) rotate(-45deg);
+  transition: all .3s ease-in-out;
+}
+
+.nav__burger_open div:nth-child(3) {
+  transform: translateY(-10px) rotate(45deg);
+  transition: all .3s ease-in-out;
 }
