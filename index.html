@@ -118,13 +118,13 @@
 function bingo(ticket, win){
   let counter = 0;
   for(let value of ticket) {
-    value[0].split('').forEach(item => {
+    value[0].split('').forEach(item =&gt; {
       if(item.charCodeAt() === value[1]) {
         return counter++
       };
     });
   }
-  if(counter >= win) {
+  if(counter &gt;= win) {
     return ('Winner!');
   } else {
     return ('Loser!')
