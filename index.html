@@ -1,157 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaQueries.css">
-    <link rel="icon" href="./assets/img/icon-cat.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaQueries.css">
+    <script defer src="./menu.js"></script>
     <title>CV</title>
 </head>
-<body class="body">
-    <header>
-        <div class="container">
-            <nav class="header-nav">
-                <ul class="header-nav-ul">
-                    <li>
-                        <a href="#aboutme">About</a>
-                    </li>
-                    <li>
-                        <a href="#codeexample">Code</a>
-                    </li>
-                    <li>
-                        <a href="#experience"> Experience</a>
-                    </li>
-                    <li>
-                        <a href="#education">Education</a>
-                    </li>
-                    <li>
-                        <a href="#contacts">Contacts</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li>
-                        <a href="#languages">Languages</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="header-flex">
-                <img src="./assets/img/avatar.jpg" alt="icon" class="avatar">
-                <div class="header-flex-aboutme">
-                        <h2 class="heading-style">Hello! My name is</h2>
-                        <h1>Maria Lezhebokova</h1>
-                        <h2 class="heading-style">Front End Developer</h2>
-                </div>
-            </div>
+<body>
+  <header>
+    <div class="header wrapper">
+      <div class="header__user">
+        <img src="./assets/img/pfp.png" alt="profile pic" class="header__pic">
+        <div class="header__user">
+          <h1 class="header__user-info">Marie Lezhebokova</h1>
+          <h2 class="header__user-info">Front-End Developer</h2>
         </div>
-    </header>
-    <main>
-    <div class="container">
-        <div class="main-flex">
-            <div class="main">
-                <article>
-                    <h2 id="aboutme" class="heading-style">&lt;about&gt;</h2>
-                    <p>Bachelor student in teaching German and committed linguist, who decided to change career path. I keen on languages and everything I do.</p>
-                    <p>My first coding experience was when I was 13 years old kid. I was a big fan of everything popular and had a Tumblr account. I really wanted to show everyone my passion and created a personal Tumblr page using HTML, dedicated to my favourite music band.</p>
-                    <p>Later I fell into Minecraft and Garry's Mod. I almost immediately felt that my game experience is lacking and installed many mods. Then it was like a fever dream: I've woken up learning Lua and creating mods.</p>
-                    <p>My life path has led me to the frontend. I&#8217;m interested in it because I&#8217;ve always enjoyed exploring website&#8217;s functionality. I believe that with my diligence and curiosity I&#8217;ll be able to make them myself and bring joy to people.</p>
-                    <span class="heading-style">&lt;/about&gt;</span>
-                </article>
-                <article>
-                    <h2 id="codeexample" class="heading-style">&lt;code&gt;</h2>
-                    <pre>
-                        <code>
-    function multiply(a, b){
-        return a * b
-      }
-                        </code>
-                    </pre>
-                    <span class="heading-style">&lt;/code&gt;</span>
-                </article>
-                <article>
-                    <h2 id="experience" class="heading-style">&lt;experience&gt;</h2>
-                    <p class="experience">None...<i>yet!</i></p>
-                    <span class="heading-style">&lt;/experience&gt;</span>
-                </article>
-                <article>
-                    <h2 id="education" class="heading-style">&lt;education&gt;</h2>
-                    <ul class="education">
-                        <li>VSU
-                            <ul class="education">
-                                <li>faculty of Romance and Germanic Philology (2018-2022)</li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <span class="heading-style">&lt;/education&gt;</span>
-                </article>
-            </div>
-            <aside class="aside">
-                <div>
-                    <article>
-                        <h2 id="contacts" class="heading-style">&lt;contacts&gt;</h2>
-                        <ul class="contacts">
-                            <li>Location: Moscow, Russia</li>
-                            <li>Email: marialezhebokova@yandex.ru</li>
-                            <li>Telegram: @koonukaame</li>
-                            <li>Github: koonukaame</li>
-                            <li>Discord: ihavenomouthbutimustscream#3078</li>
-                        </ul>
-                        <span class="heading-style">&lt;/contacts&gt;</span>
-                    </article>
-                    <article>
-                        <h2 id="skills" class="heading-style">&lt;skills&gt;</h2>
-                        <ul class="skills">
-                            <li>Git and GitHub</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>Figma</li>
-                        </ul>
-                        <span class="heading-style">&lt;/skills&gt;</span>
-                    </article>
-                    <article>
-                        <h2 id="languages" class="heading-style">&lt;languages&gt;</h2>
-                        <ul class="languages">
-                            <li>Russian (native)</li>
-                            <li>English (C1)</li>
-                            <li>German (C1)</li>
-                        </ul>
-                        <span class="heading-style">&lt;/languages&gt;</span>
-                    </article>
-                    <article>
-                        <h2 id="projects" class="heading-style">&lt;projects&gt;</h2>
-                        <div class="project">
-                            <a href="https://koonukaame.github.io/rsschool-cv/cv" target="_blank">
-                                <img src="./assets/img/project-picture.png" alt="Markdown project" class="project-picture">
-                            </a>
-                        </div>
-                        <span class="heading-style">&lt;/projects&gt;</span>
-                    </article>
-                </div>
-            </aside>
-            </div>
+      </div>
+      <nav class="nav">
+      <div class="nav__burger">
+        <div class="nav__burger-item"></div>
+        <div class="nav__burger-item"></div>
+        <div class="nav__burger-item"></div>
+      </div>
+      <ul class="nav__list">
+        <li class="nav__list-item">About</li>
+        <li class="nav__list-item">Contacts</li>
+        <li class="nav__list-item">Skills</li>
+        <li class="nav__list-item">Code</li>
+        <li class="nav__list-item">Projects</li>
+        <li class="nav__list-item">Education</li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main__block">
+      <article>
+        <h2 class="heading">About me</h2>
+        <div class="aboutme">
+        <p>Bachelor student in teaching German and committed linguist, who decided to change career path. 
+          I keen on languages and everything I do.</p>
+        <p>My life path has led me to the frontend. I’m interested in it because I’ve always enjoyed exploring website’s functionality. 
+          I believe that with my diligence and curiosity I’ll be able to make them myself and bring joy to people.
+        </p>
         </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="footer-flex">
-                <a href="https://github.com/koonukaame" target="_blank">
-                    <img src="./assets/img/Github.png" alt="Github" class="github-logo">
-                </a>
-                <p class="data">December 2022</p>
-                <a href="https://rs.school/js/" target="_blank">
-                    <img src="./assets/svg/rs_school_pink_js.svg" alt="RSSchool logo" class="rss-logo">
-                </a>
-            </div>
+    </article>
+    <article>
+        <h2 class="heading">Contact me</h2>
+          <ul class="contacts__list">
+            <li>
+              <a href="https://github.com/koonukaame">
+                <img src="./assets/img/free-icon-github-2111432.png" alt="github">
+              </a>
+            </li>
+            <li>
+              <a href="marialezhebokova@yandex.ru">
+                <img src="./assets/img/free-icon-email-9830139.png" alt="email">
+              </a>
+            </li>
+          </ul>
+    </article>
+    </div>
+    <div class="main__block">
+      <article>
+        <h2 class="heading">Education</h2>
+        <div class="education">
+          <div class="education__item">
+            <h3>Voronezh State University</h3>
+            <p>faculty of Romance and Germanic Philology (2018-2022)</p>
+          </div>
+          <div class="education__item">
+            <h3>RSSchool</h3>
+            <p>Pre-School (2022)</p>
+          </div>
         </div>
-    </footer>
+      </article>
+      <article>
+        <h2 class="heading">Projects</h2>
+        <div class="projects">
+          <div class="projects__item">
+            <h3>CV</h3>
+              <a href="https://github.com/koonukaame/rsschool-cv">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Momentum</h3>
+              <a href="https://rolling-scopes-school.github.io/koonukaame-JSFEPRESCHOOL2022Q4/">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Shelter</h3>
+              <a href="https://rolling-scopes-school.github.io/koonukaame-JSFE2023Q1/">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Bayan</h3>
+              <a href="https://koonukaame.github.io/cssBayan/cssBayan/">
+                <p>Deploy</p>
+              </a>
+          </div>
+        </div>
+      </article>
+    </div>
+      <article class="main__wrapper">
+        <h2 class="heading">Code</h2>
+        <a href="https://www.codewars.com/kata/526a569ca578d7e6e300034e/javascript">
+          <h3>Lottery Ticket</h3>
+        </a>
+        <pre>
+          <code class="code">
+function bingo(ticket, win){
+  let counter = 0;
+  for(let value of ticket) {
+    value[0].split('').forEach(item =&gt; {
+      if(item.charCodeAt() === value[1]) {
+        return counter++
+      };
+    });
+  }
+  if(counter &gt;= win) {
+    return ('Winner!');
+  } else {
+    return ('Loser!')
+  }
+}
+          </code>
+        </pre>
+      </article>
+      <article class="main__wrapper">
+        <h2 class="heading">Skills</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <h3>Main</h3>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+          <div class="skills__item">
+            <h3>Additional</h3>
+            <span>Git and Github</span>
+            <span>SCSS</span>
+            <span>Webpack</span>
+          </div>
+          <div class="skills__item">
+            <h3>Languages</h3>
+            <span>Russian - Native</span>
+            <span>English - B2</span>
+            <span>German - C1</span>
+          </div>
+        </div>
+      </article>
+  </main>
 </body>
 </html>
