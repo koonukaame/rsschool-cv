@@ -14,9 +14,9 @@
     <div class="header wrapper">
       <div class="header__user">
         <img src="./assets/img/pfp.png" alt="profile pic" class="header__pic">
-        <div class="header__user-info">
-          <span>Marie Kapishevkaya</span>
-          <span>Front-End Developer</span>
+        <div class="header__user">
+          <h1 class="header__user-info">Marie Lezhebokova</h1>
+          <h2 class="header__user-info">Front-End Developer</h2>
         </div>
       </div>
       <nav class="nav">
@@ -36,5 +36,126 @@
     </nav>
     </div>
   </header>
+  <main>
+    <div class="main__block">
+      <article>
+        <h2 class="heading">About me</h2>
+        <div class="aboutme">
+        <p>Bachelor student in teaching German and committed linguist, who decided to change career path. 
+          I keen on languages and everything I do.</p>
+        <p>My life path has led me to the frontend. I’m interested in it because I’ve always enjoyed exploring website’s functionality. 
+          I believe that with my diligence and curiosity I’ll be able to make them myself and bring joy to people.
+        </p>
+        </div>
+    </article>
+    <article>
+        <h2 class="heading">Contact me</h2>
+          <ul class="contacts__list">
+            <li>
+              <a href="https://github.com/koonukaame">
+                <img src="./assets/img/free-icon-github-2111432.png" alt="github">
+              </a>
+            </li>
+            <li>
+              <a href="marialezhebokova@yandex.ru">
+                <img src="./assets/img/free-icon-email-9830139.png" alt="email">
+              </a>
+            </li>
+          </ul>
+    </article>
+    </div>
+    <div class="main__block">
+      <article>
+        <h2 class="heading">Education</h2>
+        <div class="education">
+          <div class="education__item">
+            <h3>Voronezh State University</h3>
+            <p>faculty of Romance and Germanic Philology (2018-2022)</p>
+          </div>
+          <div class="education__item">
+            <h3>RSSchool</h3>
+            <p>Pre-School (2022)</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <h2 class="heading">Projects</h2>
+        <div class="projects">
+          <div class="projects__item">
+            <h3>CV</h3>
+              <a href="https://github.com/koonukaame/rsschool-cv">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Momentum</h3>
+              <a href="https://rolling-scopes-school.github.io/koonukaame-JSFEPRESCHOOL2022Q4/">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Shelter</h3>
+              <a href="https://rolling-scopes-school.github.io/koonukaame-JSFE2023Q1/">
+                <p>Deploy</p>
+              </a>
+          </div>
+          <div class="projects__item">
+            <h3>Bayan</h3>
+              <a href="https://koonukaame.github.io/cssBayan/cssBayan/">
+                <p>Deploy</p>
+              </a>
+          </div>
+        </div>
+      </article>
+    </div>
+      <article class="main__wrapper">
+        <h2 class="heading">Code</h2>
+        <a href="https://www.codewars.com/kata/526a569ca578d7e6e300034e/javascript">
+          <h3>Lottery Ticket</h3>
+        </a>
+        <pre>
+          <code class="code">
+function bingo(ticket, win){
+  let counter = 0;
+  for(let value of ticket) {
+    value[0].split('').forEach(item => {
+      if(item.charCodeAt() === value[1]) {
+        return counter++
+      };
+    });
+  }
+  if(counter >= win) {
+    return ('Winner!');
+  } else {
+    return ('Loser!')
+  }
+}
+          </code>
+        </pre>
+      </article>
+      <article class="main__wrapper">
+        <h2 class="heading">Skills</h2>
+        <div class="skills">
+          <div class="skills__item">
+            <h3>Main</h3>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+          <div class="skills__item">
+            <h3>Additional</h3>
+            <span>Git and Github</span>
+            <span>SCSS</span>
+            <span>Webpack</span>
+          </div>
+          <div class="skills__item">
+            <h3>Languages</h3>
+            <span>Russian - Native</span>
+            <span>English - B2</span>
+            <span>German - C1</span>
+          </div>
+        </div>
+      </article>
+  </main>
 </body>
 </html>
