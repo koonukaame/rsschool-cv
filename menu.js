@@ -6,4 +6,4 @@ function toggleMenu() {
   button.classList.toggle('nav__burger_open');
 }
 
-button.addEventListener('click', showMenu);
+button.addEventListener('click', toggleMenu);
