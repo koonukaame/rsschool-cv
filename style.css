@@ -269,3 +269,14 @@ h1 ~ h2 {
 .header__user-about {
   padding-top: 10px;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+.rsschool {
+  width: 80px;
+}
