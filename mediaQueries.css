@@ -67,6 +67,7 @@
 }
 
 @media screen and (min-width: 1000px) {
+
   body {
     padding: 50px 100px 50px 100px;
   }
@@ -91,6 +92,7 @@
 
   .contacts__list {
     flex-direction: column;
+    gap: 20px;
   }
 
   .contacts__item {
@@ -112,5 +114,17 @@
 
   .skills {
     width: 178px;
+  }
+
+  .footer {
+    padding-top: 70px;
+  }
+
+  pre {
+    height: 465px;
+  }
+
+  .rsschool {
+    width: 128px;
   }
 }
