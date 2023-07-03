@@ -1,0 +1,67 @@
+@media screen and (min-device-width: 768px) {
+  body {
+    font-size: 25px;
+    padding: 30px 30px 30px 30px;
+  }
+
+  .main__block {
+    flex-direction: row;
+  }
+
+  .header__user {
+    gap: 30px;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .header__user-info > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--heading-color);
+  }
+  
+  h1 ~ h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--subheading-color);
+    letter-spacing: 1px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .nav {
+    padding-top: 0px;
+  }
+
+  .nav__list {
+    background: none;
+    flex-direction: row;
+    transform: none;
+    position: absolute;
+    font-size: 35px;
+    inset: auto;
+    gap: 30px;
+  }
+
+  .nav__burger {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .code {
+    font-size: 17px;
+  }
+}

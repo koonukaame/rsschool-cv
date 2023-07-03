@@ -13,6 +13,7 @@ function closeMenuOnLinkClick() {
 }
 
 button.addEventListener('click', toggleMenu);
+
 link.forEach(link => {
   link.addEventListener('click', closeMenuOnLinkClick)
 });
