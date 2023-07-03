@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <div class="header wrapper">
+    <div class="header container">
       <nav class="nav">
       <div class="nav__burger">
         <div class="nav__burger-item"></div>
@@ -19,6 +19,12 @@
         <div class="nav__burger-item"></div>
       </div>
       <ul class="nav__list">
+        <li class="nav__list-item link">
+            <a href="#about">About</a>
+          </li>
+          <li class="nav__list-item link">
+            <a href="#contacts">Contacts</a>
+          </li>
           <li class="nav__list-item link">
             <a href="#education">Education</a>
           </li>
@@ -33,17 +39,19 @@
         </li>
       </ul>
     </nav>
-    <article id="about">
-      <div class="header__user">
+    <div class="header__user">
+      <article id="about">
         <img src="./assets/img/pfp.png" alt="profile pic" class="header__pic">
         <div class="header__user-info">
           <h1>Marie Lezhebokova</h1>
           <h2>Front-End Developer</h2>
-        </div>
-        <div>
+        <div class="header__user-about">
         <p>Bachelor student in teaching German and committed linguist, who decided to change career path.
           I keen on languages and everything I do.</p>
         </div>
+        </div>
+      </article>
+      <article id="contacts">
         <ul class="contacts__list">
             <li>
               <a href="https://github.com/koonukaame">
@@ -90,12 +98,13 @@
               </a>
             </li>
           </ul>
+      </article>
       </div>
-    </article>
-    </div>
+      </div>
   </header>
   <main>
-    <div class="main__block">
+    <div class="container">
+      <div class="main__block">
       <article id="education">
         <h2 class="heading">Education</h2>
         <div class="education">
@@ -108,7 +117,7 @@
             </div>
           </div>
           <div class="education__item">
-            <h3>The Rolling Scope School</h3>
+            <h3>The Rolling Scopes School</h3>
             <p>Pre-School</p>
             <div class="additional__info">
               <div class="additional__line"></div>
@@ -162,7 +171,7 @@
     <div class="main__block">
       <article id="code">
         <h2 class="heading">Code</h2>
-        <a href="https://www.codewars.com/kata/526a569ca578d7e6e300034e/javascript">
+        <a href="https://www.codewars.com/kata/57f625992f4d53c24200070e">
           <h3>Lottery Ticket</h3>
         </a>
         <pre>
@@ -208,6 +217,7 @@ function bingo(ticket, win){
           </div>
         </div>
       </article>
+    </div>
     </div>
   </main>
 </body>

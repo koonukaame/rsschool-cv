@@ -7,7 +7,6 @@
   font-style:normal;
 }
 
-
 @font-face {
   font-family: 'Roboto Slab';
   src: url('assets/fonts/RobotoSlab-Medium.ttf') format('truetype');
@@ -85,9 +84,9 @@ h3 {
   color: var(--heading-color);
 }
 
-.wrapper {
+.container {
   margin: 0 auto;
-  width: 100%;
+  max-width: 1280px;
 }
 
 .header {
@@ -197,6 +196,12 @@ h1 ~ h2 {
   display: flex;
   gap: 5px;
   width: 127px;
+  align-items: center;
+}
+
+.contacts__item > img {
+  width: 32px;
+  height: 32px;
 }
 
 .education {
@@ -259,4 +264,8 @@ h1 ~ h2 {
   width: 15px;
   height: 3px;
   background: rgba(36, 39, 50, 0.40);
+}
+
+.header__user-about {
+  padding-top: 10px;
 }
