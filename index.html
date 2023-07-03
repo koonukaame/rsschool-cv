@@ -19,29 +19,23 @@
         <div class="nav__burger-item"></div>
       </div>
       <ul class="nav__list">
-        <a href="#about">
-          <li class="nav__list-item link">About</li>
-        </a>
-        <a href="#contacts">
-          <li class="nav__list-item link">Contacts</li>
-        </a>
-        <a href="#education">
-          <li class="nav__list-item link">Education</li>
-        </a>
-        <a href="#projects">
-          <li class="nav__list-item link">Projects</li>
-        </a>
-        <a href="#code">
-          <li class="nav__list-item link">Code</li>
-        </a>
-        <a href="#skills">
-          <li class="nav__list-item link">Skills</li>
-        </a>
+          <li class="nav__list-item link">
+            <a href="#education">Education</a>
+          </li>
+        <li class="nav__list-item link">
+        <a href="#projects">Projects</a>
+        </li>
+        <li class="nav__list-item link">
+        <a href="#code">Code</a>
+        </li>
+        <li class="nav__list-item link">
+          <a href="#skills">Skills</a>
+        </li>
       </ul>
     </nav>
     <article id="about">
       <div class="header__user">
-        <!-- <img src="./assets/img/pfp.png" alt="profile pic" class="header__pic"> -->
+        <img src="./assets/img/pfp.png" alt="profile pic" class="header__pic">
         <div class="header__user-info">
           <h1>Marie Lezhebokova</h1>
           <h2>Front-End Developer</h2>
@@ -53,17 +47,46 @@
         <ul class="contacts__list">
             <li>
               <a href="https://github.com/koonukaame">
-                <img src="./assets/img/free-icon-github-2111432.png" alt="github">
+                <div class="contacts__item">
+                  <img src="./assets/img/free-icon-github-2111432.png" alt="github">
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Github</p>
+                </div>
+                </div>
               </a>
             </li>
             <li>
               <a href="marialezhebokova@yandex.ru">
-                <img src="./assets/img/free-icon-email-9830139.png" alt="email">
+                <div class="contacts__item">
+                  <img src="./assets/img/free-icon-email-9830139.png" alt="email">
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Email</p>
+                </div>
+                </div>
               </a>
             </li>
             <li>
               <a href="https://github.com/koonukaame">
-                <img src="./assets/img/telegram-logo.png" alt="telegram">
+                <div class="contacts__item">
+                  <img src="./assets/img/telegram-logo.png" alt="telegram">
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Telegram</p>
+                </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/koonukaame">
+                <div class="contacts__item">
+                  <img src="./assets/img/map.png" alt="telegram">
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Russia</p>
+                </div>
+                </div>
               </a>
             </li>
           </ul>
@@ -78,18 +101,17 @@
         <div class="education">
           <div class="education__item">
             <h3>Voronezh State University</h3>
-            <p>faculty of Romance and Germanic Philology </p>
-            <div class="education__age">
-              <div class="education__line"></div>
+            <p>faculty of Romance and Germanic Philology</p>
+            <div class="additional__info">
+              <div class="additional__line"></div>
               <p>(2018-2022)</p>
             </div>
-            
           </div>
           <div class="education__item">
             <h3>The Rolling Scope School</h3>
             <p>Pre-School</p>
-            <div class="education__age">
-              <div class="education__line"></div>
+            <div class="additional__info">
+              <div class="additional__line"></div>
               <p>(2022-2023)</p>
             </div>
           </div>
@@ -101,31 +123,44 @@
           <div class="projects__item">
             <h3>CV</h3>
               <a href="https://github.com/koonukaame/rsschool-cv">
-                <p>Deploy</p>
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Deploy</p>
+                </div>
               </a>
           </div>
           <div class="projects__item">
             <h3>Momentum</h3>
               <a href="https://rolling-scopes-school.github.io/koonukaame-JSFEPRESCHOOL2022Q4/">
-                <p>Deploy</p>
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Deploy</p>
+                </div>
               </a>
           </div>
           <div class="projects__item">
             <h3>Shelter</h3>
               <a href="https://rolling-scopes-school.github.io/koonukaame-JSFE2023Q1/">
-                <p>Deploy</p>
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Deploy</p>
+                </div>
               </a>
           </div>
           <div class="projects__item">
             <h3>Bayan</h3>
               <a href="https://koonukaame.github.io/cssBayan/cssBayan/">
-                <p>Deploy</p>
+                <div class="additional__info">
+                  <div class="additional__line"></div>
+                  <p>Deploy</p>
+                </div>
               </a>
           </div>
         </div>
       </article>
     </div>
-      <article class="main__wrapper" id="code">
+    <div class="main__block">
+      <article id="code">
         <h2 class="heading">Code</h2>
         <a href="https://www.codewars.com/kata/526a569ca578d7e6e300034e/javascript">
           <h3>Lottery Ticket</h3>
@@ -150,7 +185,7 @@ function bingo(ticket, win){
           </code>
         </pre>
       </article>
-      <article class="main__wrapper" id="skills">
+      <article id="skills">
         <h2 class="heading">Skills</h2>
         <div class="skills">
           <div class="skills__item">
@@ -161,18 +196,19 @@ function bingo(ticket, win){
           </div>
           <div class="skills__item">
             <h3>Additional</h3>
-            <span>Git and Github</span>
+            <span>Git</span>
             <span>SCSS</span>
             <span>Webpack</span>
           </div>
           <div class="skills__item">
             <h3>Languages</h3>
-            <span>Russian - Native</span>
+            <span>Russian</span>
             <span>English - B2</span>
             <span>German - C1</span>
           </div>
         </div>
       </article>
+    </div>
   </main>
 </body>
 </html>
