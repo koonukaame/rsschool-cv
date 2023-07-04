@@ -127,4 +127,10 @@
   .rsschool {
     width: 128px;
   }
+
+  .header__pic {
+    display: block;
+    height: 150px;
+    width: 150px;
+  }
 }
