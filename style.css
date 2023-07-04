@@ -57,7 +57,15 @@ a {
   text-decoration: none;
 }
 
+a:any-link {
+  color: var(--heading-color);
+}
+
 a:visited {
+  color: var(--heading-color);
+}
+
+a:active {
   color: var(--heading-color);
 }
 
